@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "716ad658ec3cae7131484ee0e3a4c96e",
-    "content-hash": "f0516f2859d8cc9f827cc95c01b52a5d",
+    "hash": "bea0956a029dccf295ada7aa8301e01e",
+    "content-hash": "c208a3d07f3a9bd80726d6194758750e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -36,16 +36,16 @@
         },
         {
             "name": "linecorp/line-bot-sdk",
-            "version": "1.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/line/line-bot-sdk-php.git",
-                "reference": "439e09646de7725e7703fcb153eb805222c4f0d7"
+                "reference": "be8c29d2e7396f174254e68c7daa2a409d8c7ddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/439e09646de7725e7703fcb153eb805222c4f0d7",
-                "reference": "439e09646de7725e7703fcb153eb805222c4f0d7",
+                "url": "https://api.github.com/repos/line/line-bot-sdk-php/zipball/be8c29d2e7396f174254e68c7daa2a409d8c7ddb",
+                "reference": "be8c29d2e7396f174254e68c7daa2a409d8c7ddb",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "line",
                 "sdk"
             ],
-            "time": "2016-10-19 07:19:32"
+            "time": "2016-10-25 01:54:04"
         },
         {
             "name": "monolog/monolog",
@@ -424,7 +424,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "linecorp/line-bot-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
